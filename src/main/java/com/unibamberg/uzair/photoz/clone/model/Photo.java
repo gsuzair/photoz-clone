@@ -1,4 +1,4 @@
-package com.unibamberg.uzair.photoz.clone;
+package com.unibamberg.uzair.photoz.clone.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.constraints.NotEmpty;

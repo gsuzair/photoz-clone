@@ -1,6 +1,7 @@
-package com.unibamberg.uzair.photoz.clone;
+package com.unibamberg.uzair.photoz.clone.web;
 
-import jakarta.validation.Valid;
+import com.unibamberg.uzair.photoz.clone.model.Photo;
+import com.unibamberg.uzair.photoz.clone.service.PhotozService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -8,9 +9,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.io.IOException;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
 
 @RestController
 public class PhotozController {

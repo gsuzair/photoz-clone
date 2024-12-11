@@ -1,5 +1,7 @@
-package com.unibamberg.uzair.photoz.clone;
+package com.unibamberg.uzair.photoz.clone.web;
 
+import com.unibamberg.uzair.photoz.clone.model.Photo;
+import com.unibamberg.uzair.photoz.clone.service.PhotozService;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

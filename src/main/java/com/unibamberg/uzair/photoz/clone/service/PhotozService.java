@@ -1,5 +1,6 @@
-package com.unibamberg.uzair.photoz.clone;
+package com.unibamberg.uzair.photoz.clone.service;
 
+import com.unibamberg.uzair.photoz.clone.model.Photo;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
